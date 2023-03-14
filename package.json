@@ -9,6 +9,7 @@
     "open-next": "./dist/index.js"
   },
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
     "dev": "tsc -w",
     "release": "./.changeset/release",
